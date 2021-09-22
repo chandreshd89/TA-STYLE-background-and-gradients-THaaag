@@ -1,0 +1,206 @@
+/* v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Global customs */
+
+.container {
+  background: url(../block-BHaabu/waterfall.jpg) no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.container h1 {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+}
+
+/* SECTION */
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h1 {
+  text-transform: capitalize;
+}
+.box {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  background: #ff0248;
+  margin: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linear {
+  background: linear-gradient(to left, #ff0248, #2b2a23);
+}
+
+.radial {
+  background: radial-gradient(#ff0248, #2b2a23);
+}
+
+.box4 {
+  width: 1000px;
+  height: 500px;
+  margin-left: 175px;
+  background: url(../block-BHaabu/cheetah.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.align {
+  width: 1000px;
+  height: 500px;
+  background: linear-gradient(330deg, rgba(250, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.padding {
+  padding: 30px 0;
+}
